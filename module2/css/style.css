@@ -3,8 +3,9 @@
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	box-sizing: border-box;
 }
-.header {
+header {
 	text-align: center;
+	font-size: 175%;
 }
 .content-box {
 	border: 1px solid black;
@@ -21,7 +22,7 @@
 	top: -1px;
 	width: 33%;
 	text-align: center;
-	font-weight: bold;
+	font-size: 125%;
 }
 #chicken {
 	background-color: pink;
