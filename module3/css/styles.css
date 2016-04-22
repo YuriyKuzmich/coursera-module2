@@ -1,0 +1,25 @@
+.navbar, .navbar-collapse{
+	border-radius: 0;
+	background-color: #E7E7E7;
+}
+
+ul.navbar-nav {
+	background-color: #fff;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+ul.navbar-nav li {
+	border-bottom: 1px solid #E7E7E7;
+}
+ul.navbar-nav :last-child {
+	border-bottom: none;	
+}
+.main-content {
+	background-color: #E7E7E7;
+	min-height: 1000px;
+}
+@media (min-width: 500px) and (max-width: 767px) {
+	.container {
+		max-width: 500px;
+	}
+}
